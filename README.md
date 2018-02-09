@@ -7,7 +7,7 @@ This chrome extension acts as a automation tool for our databse.
 
 * Clone the repository
 * Extract the zip file
-* Visit chrome://extensions/ in Google Chrome browser
+* Visit [chrome://extensions/](chrome://extensions/) in Google Chrome browser
 * Enable developer mode
 * Load the unpacked extension
 * Contact admin for your secret key
