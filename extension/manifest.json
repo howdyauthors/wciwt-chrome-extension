@@ -1,0 +1,25 @@
+{
+    "name": "wciwt",
+    "description" : "This Google Chrome extensions automates the process of scraping titles from Netflix, Prime Video and Hotstar.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "img/icon.png"
+    },
+    "permissions": [
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://primevideo.com/*",
+                "https://www.primevideo.com/*",
+                "https://netflix.com/*",
+                "https://www.netflix.com/*",
+                "http://hotstar.com/*",
+                "http://www.hotstar.com/*"
+            ],
+            "js": ["scripts/jquery_1.11.0.js", "scripts/content.js"]
+        }
+    ]
+}
